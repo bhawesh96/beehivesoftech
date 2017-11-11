@@ -1,0 +1,218 @@
+#navigationtop {
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	margin-left: 60px;
+}
+#bgtop {
+	background-image: url(http://beehivesoftech.co.in/images/bg/navigationtop.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+#navigationtop a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	vertical-align: middle; 
+	padding-top: 25px;
+	padding-right: 30px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	color: #FFF;
+	font-size: 13px;
+	font-weight: bolder;
+}
+#navigationtop a:hover {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bolder;
+	color: #E6E6E6;
+	padding-top: 25px;
+	padding-right: 30px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	background-image: url(http://beehivesoftech.co.in/images/bg/rollover.gif);
+	background-repeat: no-repeat;
+	background-position: center 16px;
+}
+#navigationside a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	text-decoration: none;
+	display: block;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 35px;
+	margin: 2px;
+	color: #666;
+}
+#navigationside {
+	border-right-width: 1px;
+	border-right-style: none;
+	border-right-color: #666;
+	background-image: url(http://beehivesoftech.co.in/images/bg/divider.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	vertical-align: top;
+	margin-top: 2px;
+}
+#navigationside a:hover {
+	color: #00a851;
+	border-bottom-style: none;
+	border-left-width: 4px;
+	border-left-style: none;
+	border-left-color: #09C;
+	padding-left: 35px;
+	background-image: url(http://beehivesoftech.co.in/images/bg/rolloverleft.gif);
+	background-position: 15px center;
+	background-repeat: no-repeat;
+}
+#infopink {
+	background-image: url(http://beehivesoftech.co.in/images/bg/infobgpink.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#infoorange {
+	background-image: url(http://beehivesoftech.co.in/images/bg/infobgorange.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#infoblue {
+	background-image: url(http://beehivesoftech.co.in/images/bg/infobgblue.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: justify;
+	margin-top: 40px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+#header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-color: #e5edf5;
+	color: #6F83B0;
+	font-weight: bold;
+}
+#odd {
+	background-color: #f7f7f7;
+}
+#even {
+	background-color: #efefef;
+}
+#chit {
+	margin-top: 50px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #8F9EC2;
+	font-size: 12px;
+	text-align: center;
+}
+#main {
+	background-repeat: repeat-y;
+	background-position: center top;
+	vertical-align: top;
+}
+#chitwork {
+	margin-top: 40px;
+}
+#chitwork a {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #666;
+	font-size: 12px;
+	text-decoration: none;
+}
+#main table tr #infoorange #chitwork tr td p a:hover {
+	font-weight: normal;
+	color: #09C;
+}
+#bottom {
+	background-repeat: repeat-x;
+	background-position: center top;
+	background-image: url(http://beehivesoftech.co.in/images/bg/footer.png);
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	text-transform: capitalize;
+	color: #FFF;
+}
+#footer {
+	background-image: url(http://beehivesoftech.co.in/images/bg/footer.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	color: #FFF;
+}
+.fromtitle {
+	text-align: center;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #09C;
+	font-weight: bold;
+	vertical-align: center;	
+}
+.footer1 {
+	text-align: center;
+}
+#faqcontent {
+	background-image: url(http://beehivesoftech.co.in/images/bg/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#sitecontent {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: justify;
+	margin-right: 20px;
+	margin-bottom: 3px;
+	margin-left: 5px;
+	vertical-align: top;
+	margin-top: 2px;
+	color: #000000;	
+}
+#sitecontent form table {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: justify;
+	margin-right: 20px;
+	margin-bottom: 3px;
+	margin-left: 5px;
+	vertical-align: top;
+	margin-top: 2px;
+	color: #000000;	
+}
+#pageheader {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	text-align: justify;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	vertical-align: top;
+	font-weight: 200;
+	color: #00a851;	
+}
+#faq {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: justify;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	vertical-align: top;
+	font-weight: 200;
+	color: #63A0DA;	
+}

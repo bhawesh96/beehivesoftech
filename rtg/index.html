@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rahul</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<form>
+		<select id="state" onchange="rtg(this, 'state');">
+			<option value="">Select a State</option>
+			<option value="mh">Maharashtra</option>
+			<option value="wb">West Bengal</option>
+		</select>
+
+		<select style="display : none;" id="institution" onchange="rtg(this, 'institution')"></select>
+		
+		<select style="display : none;" id="courses"></select>
+	</form>
+
+
+	<script>
+		function rtg(selectedOption, dropdownType) {
+			var myOptions;
+			var mySelect;
+			if(dropdownType == "state") {
+				mySelect = $('#institution');
+				if(selectedOption.value == "mh") {
+					myOptions = {
+				    	coa : 'College of Agriculture',
+				    	iitb : 'IIT Bombay'
+					};
+				} else if(selectedOption.value == "wb") {
+					myOptions = {
+				    	jdp : 'Jadhavpur University',
+				    	iimc : 'IIM Calcutta'
+					};
+				}
+			}
+
+			if(dropdownType == "institution") {
+				mySelect = $('#courses')
+				if(selectedOption.value == "coa") {
+					myOptions = {
+				    	ins : 'Insectisides',
+				    	pest : 'Pesticides'
+					};
+				} else if(selectedOption.value == "iitb") {
+					myOptions = {
+				    	java : 'Java',
+				    	html : 'HTML'
+					};
+				} else if(selectedOption.value == "jdp") {
+					myOptions = {
+				    	bba : 'BBA',
+				    	bcom : 'B.Com'
+					};
+				} else if(selectedOption.value == "iimc") {
+					myOptions = {
+				    	bm : 'Businesss Management',
+				    	eco : 'Economics'
+					};
+				}	
+			}	
+		
+			mySelect.empty(); // empty the dropdown coz we're using append
+			mySelect.show();  // display the dropdown
+			$.each(myOptions, function(val, text) {
+			    mySelect.append(
+			        $('<option></option>').val(val).html(text)
+			    );
+			});
+		}
+	</script>
+
+</body>
+</html>

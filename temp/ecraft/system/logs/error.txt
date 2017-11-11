@@ -1,0 +1,16 @@
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_voucher_min in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1091
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_voucher_max in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1095
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_image_category_width in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1099
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_image_thumb_width in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1103
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_image_popup_width in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1107
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_image_product_width in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1111
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_image_additional_width in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1115
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_image_related_width in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1119
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_image_compare_width in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1123
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_image_wishlist_width in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1127
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_image_cart_width in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1131
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_ftp_status in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1135
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_error_filename in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1153
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_catalog_limit in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1157
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_admin_limit in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1161
+2015-12-15 9:04:43 - PHP Notice:  Undefined index: config_encryption in /home/beehipfc/public_html/ecraft/admin/controller/setting/setting.php on line 1165

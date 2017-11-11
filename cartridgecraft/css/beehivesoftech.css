@@ -1,0 +1,93 @@
+BODY {font-family:"Arial"; font-size:10;text-align:center;}
+
+P {font-family:"Arial";}
+
+.title {font-family:"Arial"; font-size:20; color:white;font-style:bold;padding-top:8px;background-color:#007DFB;padding-bottom:8px;text-align:center;padding-left:20px;padding-right:20px;}
+
+.imagedesc {font-family:"Arial"; font-size:11; color:black;font-style:normal;padding-top:3px;background-color:white;padding-bottom:3px;text-align:center;}
+
+.description{font-family:"Arial"; font-size:12; color:black;font-style:normal;padding-top:3px;background-color:white;padding-bottom:3px;padding-left:5px;padding-right:5px;text-align:justify;vertical-align:top;}
+
+.links {font-family:"Arial"; font-size:10; color:#007DFB;font-style:bold;padding-top:3px;background-color:#efefef;padding-bottom:3px;text-align:left;} 
+
+.pageHeader {font-family:"Arial"; font-size:13; color:white;font-style:bold;padding-top:6px;background-color:#007DFB;padding-bottom:6px;text-align:center;} 
+
+.options {font-family:"Arial"; font-size:13; color:white;font-style:normal;padding-top:4px;background-color:#5C6481;padding-bottom:4px;padding-left:10px;text-align:center;} 
+
+.list {font-family:"Arial"; font-size:12; color:blue;font-style:normal;padding-top:4px;background-color:white;padding-bottom:4px;padding-left:15px;text-align:left;} 
+
+.de-list {font-family:"Arial"; font-size:12; color:white;font-style:bold;padding-top:4px;background-color:#8AC5FF;padding-bottom:4px;padding-left:3px;text-align:center;} 
+
+.header{font-family:"Arial"; font-size:14px; color:#black;font-style:bold;padding-top:4px;background-color:white;padding-bottom:4px;padding-left:15px;text-align:left;}
+
+.copyrights {font-family:"Arial"; font-size:10; color:white;font-style:normal;padding-top:2px;background-color:#5C6481;padding-bottom:2px;padding-left:10px;text-align:center;}
+
+FORM {margin:0;padding:0;}
+
+#centerwrapper {text-align:justify;width:1024px;margin-left:auto;margin-right:auto;} 
+
+A:link,A:active{font-family:"Arial";font-weight: normal;text-decoration:none;font-size:10pt;color:black;background-color:white;}
+
+A:visited{font-family:"Arial";font-weight: normal;text-decoration:none;font-size:10pt;color:black;background-color:white;}
+
+A:hover {font-family:"Arial";font-weight: normal;text-decoration:underline;font-size:10pt;color:blue;background-color:white;}
+
+.completed {font-family:"Arial"; font-size:10; color:white;font-style:normal;padding-top:4px;background-color:green;padding-bottom:4px;padding-left:5px;text-align:left;} 
+
+.inprogress {font-family:"Arial"; font-size:10; color:black;font-style:normal;padding-top:4px;background-color:#FF9900;padding-bottom:4px;padding-left:5px;text-align:left;} 
+
+.tbd {font-family:"Arial"; font-size:10; color:white;font-style:normal;padding-top:4px;background-color:red;padding-bottom:4px;padding-left:5px;text-align:left;} 
+
+.projectHeader {font-family:"Arial"; font-size:12; color:black;font-style:bold;padding-top:6px;background-color:yellow;padding-bottom:6px;text-align:center;} 
+
+.data {font-family:"Arial"; font-size:12; color:black;font-style:bold;padding-top:6px;background-color:white;padding-bottom:6px;padding-left:5px;text-align:left;} 
+
+td {font-family:"Arial"; font-size:11; color:black;font-style:bold;padding-top:6px;background-color:white;padding-bottom:6px;padding-left:5px;text-align:left;} 
+
+.minititle {font-family:"Arial"; font-size:12; color:white;font-style:bold;padding-top:4px;background-color:#EF8F8F;padding-bottom:4px;text-align:center;} 
+
+.remarks {font-family:"Arial"; font-size:10; color:blue;font-style:bold;padding-top:6px;background-color:white;padding-bottom:6px;padding-left:5px;text-align:left;} 
+
+.rowHeader {font-family:"Arial"; font-size:10; color:white;font-weight:bold;padding-top:6px;background-color:#00009F;padding-bottom:6px;text-align:center;}
+
+.asi {font-family:"Arial"; font-size:12; color:white;font-weight:bold;padding-top:6px;background-color:#00009F;padding-bottom:6px;text-align:center;}
+
+.content {font-family:"Arial"; font-size:11; color:black;font-style:bold;padding-top:6px;background-color:white;padding-bottom:6px;padding-left:5px;text-align:justify;} 
+
+.warning {font-family:"Arial"; font-size:15; color:white;font-weight:bold;padding-top:12px;background-color:red;padding-bottom:12px;text-align:center;}
+
+.warningsmall {font-family:"Arial"; font-size:11; color:white;font-weight:bold;padding-top:6px;background-color:red;padding-bottom:6px;text-align:center;}
+
+
+.dataleft {font-family:"Arial"; font-size:12; color:black;font-style:bold;padding-top:3px;background-color:white;padding-bottom:3px;padding-left:5px;text-align:left;} 
+
+.dataright {font-family:"Arial"; font-size:12; color:black;font-style:bold;padding-top:3px;background-color:white;padding-bottom:3px;padding-left:5px;padding-right:5px;text-align:right;}
+
+.datacenter {font-family:"Arial"; font-size:12; color:blue;font-style:bold;padding-top:3px;background-color:white;padding-bottom:3px;padding-left:5px;text-align:center;}
+
+
+.datajustify {font-family:"Arial"; font-size:12; color:black;font-style:bold;padding-top:6px;background-color:white;padding-bottom:6px;padding-left:5px;text-align:justify;vertical-align:top;}
+
+
+.linkCenter {font-family:"Arial"; font-size:11; color:black;font-style:bold;padding-top:1px;background-color:white;padding-bottom:1px;padding-left:5px;text-align:center;}
+
+.tabHeader {font-family:"Arial"; font-size:13; color:black;font-weight:italics;padding-top:6px;background-color:#efefef;padding-bottom:6px;text-align:left;}
+
+.new{font-family:"Arial"; font-size:11; color:red;font-weight:bold;text-align:right;}
+
+.updated{font-family:"Arial"; font-size:11; color:#336600;font-weight:bold;text-align:right;}
+
+.districts {font-family:"Arial"; font-size:12; color:black;font-weight:normal;padding-top:2px;background-color:white;padding-bottom:2px;text-align:left;vertical-align:top;}
+
+.info {font-family:"Arial"; font-size:13; color:white;font-weight:bold;padding-top:4px;background-color:#A4A4FF;padding-bottom:4px;text-align:center;}
+
+.route {font-family:"Arial"; font-size:11; color:black;font-weight:normal;padding-top:2px;background-color:#ffffff;padding-bottom:1px;vertical-align:top;text-align:justify;}
+
+.info1 {font-family:"Arial"; font-size:11; color:white;font-weight:bold;padding-top:6px;background-color:#8E8AC4;padding-bottom:6px;text-align:center;}
+
+.copyright{font-family:"Arial"; font-size:12; color:black;font-style:bold;padding-top:4px;background-color:#efefef;padding-bottom:4px;padding-left:5px;text-align:center;}
+
+.menucenter {font-family:"Arial";font-weight: normal;text-decoration:none;font-size:10pt;color:black;background-color:white;text-align:center;}
+
+.menuright {font-family:"Arial";font-weight: normal;text-decoration:none;font-size:10pt;color:black;background-color:white;text-align:right;}
+
