@@ -989,7 +989,7 @@
 <div class="container">
 	<h3>NICERF Components</h3>
 	<div style=" overflow: hidden; margin: 15px auto; max-width: 100%; margin-left: -60px;">
-	<iframe scrolling="no" src="http://nicerf.com" style="border: 0px none; margin-left: 160px; height: 900px; margin-top: -533px; width: 926px;">
+	<iframe class="nicerfFrame" scrolling="no" src="http://nicerf.com" style="border: 0px none; margin-left: 160px; height: 900px; margin-top: -533px; width: 926px;">
 	</iframe>
 	</div>
 </div>
@@ -1243,6 +1243,7 @@ window.onscroll=testScroll
 						$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 					});
 				});
+				$("#nicerfFrame").contents().find("div").html("new HTML content goes here");
 		</script>
 		<!-- //Smooth-Scrolling-JavaScript -->
 
